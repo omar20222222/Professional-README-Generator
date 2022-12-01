@@ -46,7 +46,7 @@ const questions = [
   {
     type: "input",
     name: "what",
-    message: "What is your project and what problem will it solve? (Required)",
+    message: "What is your project ? and what problem will it solve? (Required)",
     validate: (whatInput) => {
       if (whatInput) {
         return true;
@@ -159,7 +159,7 @@ const questions = [
 // function to write README file
 const writeFile = (fileContent) => {
   return new Promise((resolve, reject) => {
-    fs.writeFile("./dist/generated-README.md", fileContent, (err) => {
+    fs.writeFile("README.md", fileContent, (err) => {
       if (err) {
         reject(err);
         return;
