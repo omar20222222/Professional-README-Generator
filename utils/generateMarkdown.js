@@ -5,7 +5,7 @@ function generateMarkdown(data) {
   # Professional-README-Generator
 
   ## Description 
-  return   ${data.Description}
+  
 
   This project will generate a markdown file for future project READMEs,
   It will ask a series of questions like project title, description, how to install it, how to use it, collaborators, 
@@ -24,23 +24,23 @@ function generateMarkdown(data) {
   
   ## Installation  
   
-  return ${data.Install}
+ ${data.installation}
 
   Download it through Github
   Ensure inquirer is installed
   
   ## Usage  
   
-  return ${data.Usage}
+  ${data.usage}
   
   Open terminal
   in Terminal do a  'node index.js'
   Answer the prompts as follows
   On success a README.md will be generated.
 
-  ## Tests 
+  ## Tests  
   
-  return ${data.Tests}
+   ${data.test}
 
 
   To apply a test on this app, pen up the file in VS Code. Open the terminal, 
@@ -50,20 +50,36 @@ function generateMarkdown(data) {
   
   ## Questions 
   
-  return ${data.Questions}
   What is the title of your project ?
   ${data.title}
+
   What is your GitHub Username ?
+  ${data.githubUsername}
+
   What is your email address ?
+  ${data.email}
+
   What is your project ? and what problem will it solve?
+  ${data.what}
+  ${data.why}
+
   Why did you create this project?
+  ${data.how}
+
   How will someone use this ?
   Please enter your installation instructions
+  ${data.installation}
+
   Please provide instructions and examples for use
   Which license will you use for your project ?
+  ${data.license}
+
   Would you like to allow other developers to contribute?
+  ${data.confirmContributers}
+
   Please provide guidelines for contributing ?
   Please provide instructions on how to test the app ?
+  ${data.test}
 
   
 `;
