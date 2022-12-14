@@ -75,6 +75,6 @@ ervf
 
 ## Links
 
-Github URL - mar20222222/Professional-README-Generator (github.com)
+Github URL - https://github.com/omar20222222/Professional-README-Generator
 
-Video Link - Untitled: Dec 1, 2022 7:30 PM.webm - Google Drive
+Video Link - https://drive.google.com/file/d/1TQSmbp-C3k3iH6uuL4Ycsf1htYds3635/view
